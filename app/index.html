@@ -1,111 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link
-			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
-			rel="stylesheet">
-		<link rel="stylesheet" href="css/libs.min.css">
-		<link rel="stylesheet" href="css/style.min.css">
-		<title>Furniture__mart</title>
-	</head>
-	<body>
-		<header class="header">
-			<div class="container">
-				<div class="header__inner">
-					<div class="header__logo"> <a href="#"> Dev Furniture Mart
-						</a></div>
-					<nav class="header__menu">
-						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Features</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Product</a></li>
-							<li><a href="#">Shop</a></li>
-							<li><a href="#">Blog</a></li>
-						</ul>
-					</nav>
-					<div class="header__services">
-						<div class="service__item service__item-serch"> <a
-								href="#"> Search </a>
-						</div>
-						<div class="service__item service__item-profile"><a
-								href="#"> Account</a>
-						</div>
-						<div class="service__item service__item-cart"><a
-								href="#">Cart</a> </div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<div class="cols__inner">
-			<div class="left__col"></div>
-			<div class="collection2020">
-					<div class="collection2020__slider">
-						<div class="collection2020__slider-item">
-							<div class="item__content">
-								<div class="item__content-title">New Collection 2020</div>
-								<div class="item__content-name">Chair With Style</div>
-								<div class="item__content-price"><span>FROM</span>$183.76 </div>
-								<button class="btn">
-									<a href="#">Shop Now</a>
-								</button>
-							</div>
-							<div class="item__img"></div>
-						</div>
-					</div>
-					<div class="clearence">
-						<div class="clearence__inner">
-							<div class="clearence__col clearence__col-first">
-								<div class="clearence__item">
-								<div class="clearence__item-title">Clearence</div>
-								<div class="clearence__item-name">Coffee Tables</div>
-								<div class="clearence__item-price">from $19.99</div>
-								<button class="clearence__item-btn">
-									<a href="#">Shop Now</a>
-								</button>
-							</div>
-							</div>
-							<div class="clearence__col clearence__col-second">
-								<div class="clearence__item">
-								 <div class="clearence__item-title">Clearence</div>
-								 <div class="clearence__item-name">Coffee Tables</div>
-								 <div class="clearence__item-price">from $19.99</div>
-								 <button class="clearence__item-btn">
-									<a href="#">Shop Now</a>
-								</button>
-							  </div>
-							</div>
-							<div class="clearence__col clearence__col-third">
-							<div class="clearence__item">
-								 <div class="clearence__item-title">Clearence</div>
-								 <div class="clearence__item-name">Coffee Tables</div>
-								 <div class="clearence__item-price">from $19.99</div>
-								 <button class="clearence__item-btn">
-									<a href="#">Shop Now</a>
-								</button>
-								</div>
-										<div class="clearence__item">
-								 <div class="clearence__item-title">Clearence</div>
-								 <div class="clearence__item-name">Coffee Tables</div>
-								 <div class="clearence__item-price">from $19.99</div>
-								 <button class="clearence__item-btn">
-									<a href="#">Shop Now</a>
-								</button>
-								</div>
-								</div>
-					</div>
-			</div>
-		</div>
-			<div class="right__col"></div>
-				</div>
-			</div>
-		</section>
-		<script
-			src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="js/libs.min.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Furniture__mart</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo"> <a href="#"> Dev Furniture Mart
+					</a></div>
+                <nav class="header__menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="header__services">
+                    <div class="service__item service__item-serch"> <a href="#"> Search </a>
+                    </div>
+                    <div class="service__item service__item-profile"><a href="#"> Account</a>
+                    </div>
+                    <div class="service__item service__item-cart"><a href="#">Cart</a> </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="cols__inner">
+        <div class="left__col"></div>
+        <div class="collection2020">
+            <div class="collection2020__slider">
+                <div class="collection2020__slider-item">
+                    <div class="item__content">
+                        <div class="item__content-title">New Collection 2020</div>
+                        <div class="item__content-name">Chair With Style</div>
+                        <div class="item__content-price"><span>FROM</span>$183.76 </div>
+                        <button class="btn">
+							<a href="#">Shop Now</a>
+						</button>
+                    </div>
+                    <div class="item__img"></div>
+                </div>
+            </div>
+            <div class="clearence">
+                <div class="clearence__inner">
+                    <div class="clearence__col clearence__col-first">
+                        <div class="clearence__item">
+                            <div class="clearence__item-title">Clearence</div>
+                            <div class="clearence__item-name">Coffee Tables</div>
+                            <div class="clearence__item-price">from $19.99</div>
+                            <button class="clearence__item-btn">
+								<a href="#">Shop Now</a>
+							</button>
+                        </div>
+                    </div>
+                    <div class="clearence__col clearence__col-second">
+                        <div class="clearence__item">
+                            <div class="clearence__item-title">Clearence</div>
+                            <div class="clearence__item-name">Coffee Tables</div>
+                            <div class="clearence__item-price">from $19.99</div>
+                            <button class="clearence__item-btn">
+								<a href="#">Shop Now</a>
+							</button>
+                        </div>
+                    </div>
+                    <div class="clearence__col clearence__col-third">
+                        <div class="clearence__item">
+                            <div class="clearence__item-title">Clearence</div>
+                            <div class="clearence__item-name">Coffee Tables</div>
+                            <div class="clearence__item-price">from $19.99</div>
+                            <button class="clearence__item-btn">
+								<a href="#">Shop Now</a>
+							</button>
+                        </div>
+                        <div class="clearence__item">
+                            <div class="clearence__item-title">Clearence</div>
+                            <div class="clearence__item-name">Coffee Tables</div>
+                            <div class="clearence__item-price">from $19.99</div>
+                            <button class="clearence__item-btn">
+								<a href="#">Shop Now</a>
+							</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right__col"></div>
+    </div>
+    </div>
+    </section>
+    <section class="furniture__filter">
+        <div class="container__fluid">
+            <div class="filter__wrapper">
+                <div class="filter__btns">
+                    <button class="filter" type="button" data-filter=".furniture">Furniture</button>
+                    <button class="filter" type="button" data-filter=".lighting">Lighting</button>
+                    <button class="filter" type="button" data-filter=".sofas">Sofas</button>
+                    <button class="filter" type="button" data-filter=".lounge chairs">Lounge chairs</button>
+                    <button class="filter" type="button" data-filter="all">All</button>
+                </div>
+                <div class="filter__nav">
+                    <button class="back">Back</button>
+                    <button class="next">Next</button>
+                </div>
+            </div>
+            <div class="products__inner">
+                <div class="mix product__item product__item-new furniture">
+                    <div class="product__item-card" style="background-image: url(images/content/filter1.png);">
+                        <div class="btn-inner">
+                            <button class="product__item-cart"> <a href="#"> ADD TO CART</a></button>
+                            <button class="product__item-search"> <a href="#"></a> </button>
+                            <button class="product__item-favorite"> <a href="#"></a> </button>
+                            <button class="product__item-range"> <a href="#"></a> </button>
+                        </div>
+                    </div>
+                    <div class="product__item-description">
+                        <div class="item-description-firm">
+                            <div class="firm-name">Chanel</div>
+                            <div class="sale-percent">20%</div>
+                        </div>
+                        <div class="item-description-name">Dopo Designs Woolrich Klettersack Backpack</div>
+                        <div class="item-price-rate">
+                            <div class="item-price">$98.00</div>
+                            <div class="rateYo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mix product__item product__item-hot lighting">
+                    <div class="product__item-card" style="background-image: url(images/content/filter2.png);">
+                        <div class="btn-inner">
+                            <button class="product__item-cart"> <a href="#"> ADD TO CART</a></button>
+                            <button class="product__item-search"> <a href="#"></a> </button>
+                            <button class="product__item-favorite"> <a href="#"></a> </button>
+                            <button class="product__item-range"> <a href="#"></a> </button>
+                        </div>
+                    </div>
+                    <div class="product__item-description">
+                        <div class="item-description-firm">
+                            <div class="firm-name">Chanel</div>
+                            <div class="sale-percent">20%</div>
+                        </div>
+                        <div class="item-description-name">Dopo Designs Woolrich Klettersack Backpack</div>
+                        <div class="item-price-rate">
+                            <div class="item-price">$98.00</div>
+                            <div class="rateYo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mix product__item product__item-sale sofas">
+                    <div class="product__item-card" style="background-image: url(images/content/filter3.png);">
+                        <div class="btn-inner">
+                            <button class="product__item-cart"> <a href="#"> ADD TO CART</a></button>
+                            <button class="product__item-search"> <a href="#"></a> </button>
+                            <button class="product__item-favorite"> <a href="#"></a> </button>
+                            <button class="product__item-range"> <a href="#"></a> </button>
+                        </div>
+                    </div>
+                    <div class="product__item-description">
+                        <div class="item-description-firm">
+                            <div class="firm-name">Chanel</div>
+                            <div class="sale-percent">20%</div>
+                        </div>
+                        <div class="item-description-name">Dopo Designs Woolrich Klettersack Backpack</div>
+                        <div class="item-price-rate">
+                            <div class="item-price">$98.00</div>
+                            <div class="rateYo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mix product__item">
+                    <div class="product__item-card" style="background-image: url(images/content/filter4.png);">
+                        <div class="btn-inner">
+                            <button class="product__item-cart"> <a href="#"> ADD TO CART</a></button>
+                            <button class="product__item-search"> <a href="#"></a> </button>
+                            <button class="product__item-favorite"> <a href="#"></a> </button>
+                            <button class="product__item-range"> <a href="#"></a> </button>
+                        </div>
+                    </div>
+                    <div class="product__item-description">
+                        <div class="item-description-firm">
+                            <div class="firm-name">Chanel</div>
+                            <div class="sale-percent">20%</div>
+                        </div>
+                        <div class="item-description-name">Dopo Designs Woolrich Klettersack Backpack</div>
+                        <div class="item-price-rate">
+                            <div class="item-price">$98.00</div>
+                            <div class="rateYo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mix product__item product__item-new lounge chairs">
+                    <div class="product__item-card" style="background-image: url(images/content/filter1.png);">
+                        <div class="btn-inner">
+                            <button class="product__item-cart"> <a href="#"> ADD TO CART</a></button>
+                            <button class="product__item-search"> <a href="#"></a> </button>
+                            <button class="product__item-favorite"> <a href="#"></a> </button>
+                            <button class="product__item-range"> <a href="#"></a> </button>
+                        </div>
+                    </div>
+                    <div class="product__item-description">
+                        <div class="item-description-firm">
+                            <div class="firm-name">Chanel</div>
+                            <div class="sale-percent">20%</div>
+                        </div>
+                        <div class="item-description-name">Dopo Designs Woolrich Klettersack Backpack</div>
+                        <div class="item-price-rate">
+                            <div class="item-price">$98.00</div>
+                            <div class="rateYo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mix product__item product__item-hot furniture">
+                    <div class="product__item-card" style="background-image: url(images/content/filter2.png);">
+                        <div class="btn-inner">
+                            <button class="product__item-cart"> <a href="#"> ADD TO CART</a></button>
+                            <button class="product__item-search"> <a href="#"></a> </button>
+                            <button class="product__item-favorite"> <a href="#"></a> </button>
+                            <button class="product__item-range"> <a href="#"></a> </button>
+                        </div>
+                    </div>
+                    <div class="product__item-description">
+                        <div class="item-description-firm">
+                            <div class="firm-name">Chanel</div>
+                            <div class="sale-percent">20%</div>
+                        </div>
+                        <div class="item-description-name">Dopo Designs Woolrich Klettersack Backpack</div>
+                        <div class="item-price-rate">
+                            <div class="item-price">$98.00</div>
+                            <div class="rateYo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mix product__item product__item-sale furniture">
+                    <div class="product__item-card" style="background-image: url(images/content/filter3.png);">
+                        <div class="btn-inner">
+                            <button class="product__item-cart"> <a href="#"> ADD TO CART</a></button>
+                            <button class="product__item-search"> <a href="#"></a> </button>
+                            <button class="product__item-favorite"> <a href="#"></a> </button>
+                            <button class="product__item-range"> <a href="#"></a> </button>
+                        </div>
+                    </div>
+                    <div class="product__item-description">
+                        <div class="item-description-firm">
+                            <div class="firm-name">Chanel</div>
+                            <div class="sale-percent">20%</div>
+                        </div>
+                        <div class="item-description-name">Dopo Designs Woolrich Klettersack Backpack</div>
+                        <div class="item-price-rate">
+                            <div class="item-price">$98.00</div>
+                            <div class="rateYo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mix product__item furniture">
+                    <div class="product__item-card" style="background-image: url(images/content/filter4.png);">
+                        <div class="btn-inner">
+                            <button class="product__item-cart"> <a href="#"> ADD TO CART</a></button>
+                            <button class="product__item-search"> <a href="#"></a> </button>
+                            <button class="product__item-favorite"> <a href="#"></a> </button>
+                            <button class="product__item-range"> <a href="#"></a> </button>
+                        </div>
+                    </div>
+                    <div class="product__item-description">
+                        <div class="item-description-firm">
+                            <div class="firm-name">Chanel</div>
+                            <div class="sale-percent">20%</div>
+                        </div>
+                        <div class="item-description-name">Dopo Designs Woolrich Klettersack Backpack</div>
+                        <div class="item-price-rate">
+                            <div class="item-price">$98.00</div>
+                            <div class="rateYo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn_product-filter">
+			<a href="#">View all</a>
+		    </button>
+        </div>
+    </section>
+    <section class="promo">
+        <div class="container__fluid">
+            <div class="promo__inner">
+                <div class="promo__content">
+                    <div class="promo__content-title">30% off</div>
+                    <div class="promo__content-text">Midcentury Modern Occasional Chair</div>
+                    <div class="promo__content-btn">Shop Now</div>
+                </div>
+                <div class="promo__img">
+                    <img src="images/content/promo.png" alt="">
+                    <div class="promo_price">only $309.99</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="best__seller">
+        <div class="container__fluid">
+            <div class="best__seller-nav">
+                <div class="best__seller-col col">
+                    <div class="best__seller-title">Best Seller</div>
+                    <div class="filter__nav">
+                        <button class="back">Back</button>
+                        <button class="next">Next</button>
+                    </div>
+                </div>
+                <div class="best__seller-new col">
+                    <div class="best__seller-title">New arrival</div>
+                    <div class="filter__nav">
+                        <button class="back">Back</button>
+                        <button class="next">Next</button>
+                    </div>
+                </div>
+                <div class="best__seller-features col">
+                    <div class="best__seller-title">Featured</div>
+                    <div class="filter__nav">
+                        <button class="back">Back</button>
+                        <button class="next">Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products__inner">
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__card_img"></div>
+                    <div class="product__card__info">
+                        <div class="product__card_name">Petite Table Lamp</div>
+                        <div class="product__card__price">$19.00 <span>$21.00</span></div>
+                        <button class="btn__cart"><a class="btn__cart__link" href="#">Add to Cart</a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="specials"></section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
