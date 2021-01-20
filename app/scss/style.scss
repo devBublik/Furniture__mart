@@ -733,3 +733,67 @@ button {
         }
     }
 }
+
+//start section specials
+.specials__slider {
+    padding-top: 97px;
+    padding-bottom: 80px;
+    .filter__nav {
+        text-align: right;
+        margin-bottom: 22px;
+    }
+    .filter__nav button {
+        text-align: right;
+        background-color: #fff;
+    }
+    .specials__slider__inner {
+        display: flex;
+    }
+    .specials__slider_item {
+        display: flex;
+        text-align: left;
+        width: 533px;
+        height: 354px;
+    }
+    .specials__slider_item+.specials__slider_item {
+        margin-left: 30px;
+    }
+    .specials__slider_item-1 {
+        background-image: url(../images/content/sofa_specials.png), url(../images/content/specials_bg.jpg);
+    }
+    .specials__slider_item-2 {
+        background-image: url(../images/content/specials__2.png), url(../images/content/specials_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .specials__slider_item-3 {
+        background-image: url(../images/content/specials__3.png), url(../images/content/specials_bg.jpg);
+    }
+    .specials__slider_img {
+        z-index: 1;
+    }
+    .special__slider__info {
+        z-index: 2;
+        padding-top: 40px;
+        padding-left: 40px;
+        .specials__item-title {
+            font-weight: 500;
+            font-size: 20px;
+        }
+        .specials__item-name {
+            max-width: 263px;
+            width: 100%;
+            margin-bottom: 20px;
+            font-family: "Playfair Display", serif;
+            font-size: 35px;
+            font-weight: 700;
+        }
+    }
+}
+
+.special__slider__info .btn__cart {
+    width: 133px;
+    background-color: #f7f7f7;
+}
+
+//<div class="specials__slider_img"><img src="images/content/sofa_specials.png" alt=""></div>
