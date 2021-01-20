@@ -413,6 +413,14 @@ ul {
     padding-top: 324px;
 }
 
+.product__item+.product__item {
+    margin-left: 30px;
+}
+
+.product__item:nth-child(5) {
+    margin-left: 0;
+}
+
 .product__item-cart {
     position: relative;
     background-color: #fff;
@@ -571,6 +579,7 @@ button {
     height: 516px;
     margin-bottom: 50px;
     &__inner {
+        padding-top: 65px;
         display: flex;
         justify-content: space-between;
     }
@@ -633,7 +642,7 @@ button {
 }
 
 .best__seller {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 28px;
     background-color: #e0e0e0;
     color: #616161;
@@ -964,6 +973,104 @@ button {
         }
         &+.blog__item {
             margin-left: 30px;
+        }
+    }
+}
+
+//start bonus
+.bonus {
+    &__wrapper {
+        display: flex;
+        height: 345px;
+        .col_one {
+            max-width: 1790px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 100px 200px;
+        }
+        .col_two {
+            width: 131px;
+            background-color: #e0e0e0;
+        }
+    }
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 178px;
+        width: 100%;
+        &__img {
+            margin-bottom: 25px;
+        }
+        &__title {
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 19px;
+            margin-bottom: 5px;
+        }
+        &__text {
+            font-size: 16px;
+        }
+    }
+}
+
+//section logotypes
+.logotypes {
+    background-color: #e0e0e0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 336px;
+    }
+}
+
+//start footer
+.footer {
+    &__copyright {
+        height: 75px;
+        display: flex;
+        border-top: 1px solid #cfcfcf;
+        align-items: center;
+        justify-content: center;
+    }
+    &__menu {
+        padding: 100px 0;
+        display: flex;
+        justify-content: space-between;
+        &__info {
+            max-width: 484px;
+            width: 100%;
+            text-align: left;
+            color: #424242;
+            .info__name {
+                margin-bottom: 18px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .info__text {
+                line-height: 28px;
+            }
+        }
+        &__col {
+            max-width: 143px;
+            width: 100%;
+            text-align: left;
+            .col__title {
+                margin-bottom: 28px;
+                font-size: 18px;
+                font-weight: 500;
+                color: #424242;
+            }
+        }
+        &__list {
+            color: #212121;
+            li+li {
+                padding-top: 11px;
+            }
         }
     }
 }
